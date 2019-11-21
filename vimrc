@@ -71,12 +71,16 @@ set magic                   " 设置魔术
 set guioptions-=T           " 隐藏工具栏
 set guioptions-=m           " 隐藏菜单栏
 
-nmap <tab> <C-W>w           "nomal模式下tab来切换窗口
+nmap <tab> <C-W>w           " nomal模式下tab来切换窗口
 
 set mouse=a
 set et
 set completeopt=longest,menu
 
+setw -g mouse-resize-pane on    " 鼠标调pane大小
+setw -g mouse-select-pane on    " 鼠标选择pane
+setw -g mouse-select-window on  " 鼠标选择window
+setw -g mode-mouse on
 
 
 " return OS type, eg: windows, or linux, mac, et.st..
