@@ -1,0 +1,20 @@
+pane	0	0	:watch	0	:	0	:/home/zhongkai	0	watch	:watch -n 0.5 nvidia-smi
+pane	0	0	:watch	0	:	1	:/home/zhongkai	0	watch	:watch -n 15 df -h
+pane	0	0	:watch	0	:	2	:/home/zhongkai	1	htop	:htop
+pane	0	1	:bash	1	:*	0	:/home/zhongkai/tests/my_configs/tmux	1	bash	:
+pane	0	1	:bash	1	:*	1	:/home/zhongkai	0	bash	:
+pane	0	2	:code	0	:-	0	:/home/zhongkai	1	bash	:
+pane	0	3	:run	0	:	0	:/home/zhongkai	0	bash	:
+pane	0	3	:run	0	:	1	:/home/zhongkai	0	bash	:
+pane	0	3	:run	0	:	2	:/home/zhongkai	1	bash	:
+pane	0	3	:run	0	:	3	:/home/zhongkai	0	bash	:
+pane	0	4	:test	0	:	0	:/home/zhongkai	1	bash	:
+pane	0	4	:test	0	:	1	:/home/zhongkai	0	bash	:
+pane	0	5	:bash	0	:	0	:/opt/cuda-11.1/samples/1_Utilities/deviceQuery	1	bash	:
+window	0	0	0	:	fb61,214x62,0,0{107x62,0,0[107x44,0,0,1,107x17,0,45,2],106x62,108,0,3}
+window	0	1	1	:*	5231,214x62,0,0[214x31,0,0,16,214x30,0,32,17]
+window	0	2	0	:-	b8e3,214x62,0,0,6
+window	0	3	0	:	c974,214x62,0,0[214x32,0,0{49x32,0,0,7,164x32,50,0,8},214x29,0,33{49x29,0,33,9,164x29,50,33,10}]
+window	0	4	0	:	d229,214x62,0,0[214x31,0,0,11,214x30,0,32,12]
+window	0	5	0	:	5ca7,214x62,0,0,18
+state	0	
