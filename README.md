@@ -14,3 +14,5 @@ tmux/tmux-reserrect/*
 
 ## run_config.sh
 copy these floders and files to right places with right names
+
+run `bash run_config.sh` to complete all config
